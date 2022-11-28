@@ -1,1 +1,891 @@
-@import '/css/fonts.css';
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1256px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    height: 83px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+}    
+
+.logo {
+    color: #E3B873;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-right: 55px;
+}
+
+.tel {
+    color: #E3B873;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.list {
+    list-style: none;
+    display: flex;   
+}
+
+.list-item {
+    margin-right: 47px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.list-item a:hover {
+    color: #E3B873;
+}
+
+.button0 {
+    padding: 13px 33px;
+    text-transform: uppercase;
+    width: 161px;
+    height: 37px;
+}
+
+.image-fon {
+    background-image: url(/image/flat.jpg);
+    background-size: cover;
+    height: 707px;
+    position: relative;
+}
+
+.image-fon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.page1-group {
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 194px 0 0 50px;
+}
+
+.page1-title {
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.page1-title span {
+    color: #E3B873;
+}
+
+.page1-text {
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 0;
+    margin-bottom: 21px;
+}
+
+.page1-button1 {
+    padding: 20px 41px;
+    margin-right: 15px;
+    width: 207px;
+    height: 51px;
+}
+
+.page1-button2 {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #FFFFFF;
+    padding: 20px 22px;
+    width: 207px;
+    height: 51px;
+}
+
+.page2 {
+    height: 1074px;
+    background-color: black;
+    padding-bottom: 258px;
+}
+
+.page2-group {
+    margin-left: 50px;
+    padding-top: 107px;
+    padding-bottom: 85px;
+    display: flex;
+}
+
+.page2-text {
+    padding-top: 69px;
+}
+
+.page2-title {
+    margin-bottom: 25px;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.page2-paragraf {
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 370px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.elements-name {
+    margin-bottom: 40px;
+}
+
+.elements-name h3 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.elements-name p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.dop {
+    margin-right: 45px;
+}
+
+.page2-slaider1 {
+    margin-right: 29px;
+    cursor: pointer;
+}
+
+.page2-slaider2 {
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.page2-ulimg {
+    margin-left: 58px;
+}
+
+.page2-nav {
+    list-style: none;
+    display: flex;
+}
+
+.list-item2 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 52px;
+    margin-right: 60px;
+}
+
+.list-item2_active {
+    color: #E3B873; 
+}
+
+.online-control {
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 10px;
+}
+
+.camera {
+    text-align: center;
+}
+
+.page2-camera {
+    margin-right: 9px;
+}
+
+.page3-video {
+    margin-top: -223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.page3-video::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 817px;
+    margin: 0 auto;
+}
+
+.page3-play {
+  position: absolute;
+  cursor: pointer;
+}
+   
+.page3-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.lines {
+    height: 5px;
+}
+
+.page3-paragraf {
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    margin-top: 25px;
+    margin-bottom: 83px;
+}
+
+.contact-form {
+    margin-left: 210px;
+    margin-right: 190px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "p f b"
+    "c c c";
+    justify-items: center;
+    margin-bottom: 60px;
+}
+
+.page3-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+.page3-form .form1 {
+    grid-area: p;
+}
+
+.page3-form .form2 {
+    grid-area: f;
+}
+
+.page3-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.page3-input {
+    width: 137px;
+    height: 17px;
+    margin-right: 58px;
+    border: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    outline: none;
+}
+
+.page3-button {
+    padding: 20px 75px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 51px; 
+    margin-right: 58px;
+    grid-area: b;
+}
+
+.first-checkbox {
+    grid-area: c;
+    margin-top: 35px;
+}
+
+.label {
+    cursor: pointer;
+  }
+  .checkbox{
+    display: none;
+  }
+  .fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+
+.page4-text {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+    margin-bottom: 13px;
+}
+
+.page4-title {
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.room-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.room img {
+    position: relative;
+}
+
+.room-text {
+    width: 330px;
+    height: 286px;
+    margin-top: -135px;
+    margin-left: 31px;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 3%);
+    position: absolute;
+    
+}
+
+.room-text h2 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin-top: 25px;
+    margin-left: 34px;
+    margin-bottom: 13px;
+}
+
+.room-text li {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    margin-left: 34px;
+}
+
+.room-price {
+    position: absolute;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 125px;
+    padding: 17px 21px;
+}
+
+.page5 {
+    background-image: url(/image/page5fon.png);
+    height: 645px;
+    margin-top: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left -33px bottom -15px;
+    /*position: relative;*/
+}
+
+.page5w {
+    display: flex;
+}
+
+.page5-text {
+    /*position: absolute;*/
+    margin-top: 100px;
+    margin-left: 95px;
+}
+
+.page5-svg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.page5-number {
+    position: relative;
+}
+
+.page5-t1 {
+    position: absolute;
+    margin-left: 33px;
+    margin-bottom: 8px;
+    z-index: 1; 
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.page5-form {
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    width: 507px;
+    height: 530px;
+    margin-left: 150px;
+    margin-top: 100px;
+    
+}
+
+.page5-t2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.page5-forma {
+    display: flex;
+    flex-direction: column;
+    margin-left: 49px;
+}
+
+.page5-format {
+    display: flex;
+    flex-direction: column;
+}
+
+.page5-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.page5-input {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    outline: 0;
+    width: 85%;
+    height: 35px;
+    margin-bottom: 48px;
+}
+
+.check {
+    margin-top: 0px;
+}
+
+.mail {
+    margin-bottom: 20px;
+}
+
+.page5-check {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.page5-button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 213px;
+    height: 51px;
+    margin-top: 13px;
+    margin-left: 43.8%;
+}
+
+.page5-pig {
+    margin-top: 56px;
+    margin-left: 17px;
+}
+
+.page6 {
+    background-image: url(/image/page6.0.jpg);
+    background-size: cover;
+    height: 864px;
+    position: relative;
+    margin-top: 320px;
+    margin-bottom: 110px;
+}
+
+.page6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.page6-group {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.page6-text {
+    margin-top: 137px;
+    margin-left: 30px;
+}
+
+.page6-t1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;  
+    margin-bottom: 35px;
+}
+
+.page6-list {
+    list-style: none;  
+}
+
+.page6-item {
+    margin-bottom: 11px;
+}
+
+.page6-item a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.page6-item a:hover {
+    color: #E3B873;
+}
+
+.page6-room {
+    display: flex;
+    margin-left: 215px;
+}
+.room-left {
+    display: flex;
+    flex-direction: column;
+    height: 945px;
+    justify-content: space-between;
+    margin-top: -41px;
+}
+
+.room-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 43px;
+    height: 936px;
+    justify-content: space-between;
+    margin-top: -112px;
+}
+.page7-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page7-text {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.page7-logo {
+    margin-top: 11px;
+    margin-bottom: 20px; 
+}
+
+.page7-paragraf {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+.clients {
+    display: flex;
+    justify-content: space-around;
+}
+.page7-client {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding: 13.6px 32px 90px 20px;
+}
+
+.page7-name {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    margin-bottom: 18px;
+}
+.page7-foto {
+    border-radius: 100%;
+}
+
+.page7-fio {
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 23px;
+    margin-bottom: 4px;
+}
+
+.page7-otziv {
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+}
+
+.page7-info {
+    position: absolute;
+    margin-top: 33px;
+    margin-left: -33px;
+}
+
+.citybg {
+    display: flex;
+    justify-content: center;
+    opacity: 0.1;
+}
+
+.citypg {
+    transform: scaleX(-1);
+}
+
+.page8 {
+    background-image: url(/image/page8fon.jpg);
+    background-size: cover;
+    height: 954px;
+    position: relative;
+}
+
+.page8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.page8-forma {
+     position: absolute;
+     background-color: #181818;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 34.4px 205.5px;
+     margin-top: -240px;
+     margin-left: 188px;
+}
+
+.page8-title {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+.page8-form {
+    max-width: 491px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page8-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.page8-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.page8-input {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    outline: 0;
+    width: 231px;
+    height: 35px;
+    margin-bottom: 48px;
+}
+
+.qwest {
+    width: 500px;
+}
+
+.page8-button {
+    padding: 20px 75px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 51px; 
+    margin-top: 50px;
+}
+
+.page8-title2 {
+    position: absolute;
+    margin-top: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    margin-left: 365px;
+}
+
+.page8-text {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.map {
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 180px;
+}
+
+.footer {
+    background-color: black;
+    height: 83px
+}
