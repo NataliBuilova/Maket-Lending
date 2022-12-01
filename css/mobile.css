@@ -1,0 +1,423 @@
+@media screen and (max-width: 1200px) {
+
+    .list {
+        display: none;
+    }
+
+    .button0 {
+        display: none;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+
+    .logo {
+        margin-right: 0px;
+    }
+
+    .image-fon {
+        height: 476px;
+    }
+
+    .page1-group {
+      padding: 81px 0 0 18px;
+    }
+
+    .page1-title {
+        font-size: 23px;
+        line-height: 31px;
+        margin-bottom: 16px;
+    }
+
+    .page1-text {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 32px;
+    }
+
+    .page1-b { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page1-button1 {
+        padding: 19px 68px;
+        margin-bottom: 26px;
+        width: 320px;
+        height: 51px;
+    }
+
+    .page1-button2 {
+        padding: 19px 68px;
+        width: 320px;
+        height: 51px;
+    }
+
+    .page2 {
+        height: auto;
+        padding-bottom: 0;
+    }
+
+    .page2-group
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        padding-top: 36px;
+        padding-bottom: 10px;
+        
+    }
+    .page2-text {
+        padding-top: 0px;
+    }
+
+    .page2-title {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 22px;
+        
+    }
+
+    .page2-paragraf {
+        font-size: 11px;
+        line-height: 17px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+    .mobile-img {
+        display: block;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-imgm {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 90%;
+        margin-left: 8px;
+        margin-bottom: 36px;
+    }
+
+    .mobile-img-buttons {
+        position: absolute;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 8px;
+        margin-top: 30%;
+    }
+
+    .page2-slaider {
+        display: none;
+    }
+
+    .page2-ulimg {
+        display: none;
+    }
+
+    .elements {
+        margin: 0 auto;
+        margin-top: 75%;
+        max-width: 305px;
+    }
+
+    .elements-name {
+        margin-bottom: 27px;
+    }
+
+    .elements-name h3 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .elements-name p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .online-control {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .page3 {
+        background-color: black;
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    .page3-video {
+        padding-top: 40px;
+        margin-top: 0;
+    }
+
+    .page3-svg {
+      width: 75px;
+      height: auto; 
+    }
+
+    .page3-line {
+        margin-bottom: 10px;
+    }
+
+    .page3-paragraf {
+        font-size: 11px;
+        line-height: 19px;
+        color: white;
+        margin: 20px 15px;           
+    }
+
+    .contact-form {
+        margin-left: 15px;
+        margin-right: 15px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+        "p"
+        "f"
+        "c"
+        "b";
+        justify-items: center;
+        margin-bottom: 58px;
+    }
+
+    .page3-form {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .page3-label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .page3-input {
+        width: 335px;
+        height: 17px;
+        margin-right: 0px;
+        margin-left: 0px;
+        border: 0;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        outline: none;
+        background-color: black;
+    }
+
+    .first-checkbox {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .text {
+        color: white;
+    }
+
+    .page3-button {
+        padding: 20px 75px;
+        text-transform: uppercase;
+        width: 335px;
+        height: 51px; 
+        margin-right: 0px;
+        position: absolute;
+        margin-top: 170px;
+    }
+
+    .page4-text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .room-block{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .room img {
+        width: 370px;
+    }
+
+    .room {
+        margin-bottom: 200px;
+    }
+
+    .room-price {
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 125px;
+        padding: 17px 21px;
+    }
+
+    .page5 {
+        background-image: none;
+        margin-top: 10px;
+        height: 203px;
+    }
+
+    .page5-text {
+        display: none;
+    }
+
+    .page5-form {
+        width: 355px;
+        height: 530px;
+        margin-left: 0px;
+        margin-top: 190px;
+    }
+
+    .page5-button {
+        width: 340px;
+        margin-left: 0px;
+    }
+
+    .page5-forma {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .page5-pig {
+        display: none;
+    }
+
+    .mobile-img2 {
+        display: block;
+     
+    }
+
+    .mobile-imgm2 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 90%;
+        margin-left: 8px;
+        margin-bottom: 36px;
+    }
+
+    .page5w {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page6-t1m {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #E3B873;  
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .page6 {
+        display: none;
+    }
+
+    .page7 {
+        display: none;
+    }
+
+    .citybg {
+        display: none;
+    }
+    
+    .page5-form {
+    display: none;
+    }
+
+    .page8 {
+        background-image: none;
+    }
+
+    .page8::before {
+        display: none;
+    }
+
+    .page8-forma {
+        position: relative; 
+        background-color: #181818;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start; 
+        padding: 0; 
+        margin-top: 0; 
+        margin-left: 0;
+    }
+
+    .page8-title {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 45px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .page8-form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .check2 {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+
+    .page8-input {
+        width: 330px;
+    }
+
+    .page8-button {
+        width: 340px;
+        height: 51px; 
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .page8-title2 {
+        /* position: absolute; */
+        margin-top: 0px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        margin-left: 0px; 
+        background-color: black;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .page8-text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .mapm {
+        display: block;
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .map {
+        display: none;
+    }
+    
+    .footer {
+        display: none;
+    }
+}
